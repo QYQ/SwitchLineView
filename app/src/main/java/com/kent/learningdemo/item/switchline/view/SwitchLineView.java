@@ -190,6 +190,14 @@ public class SwitchLineView extends ViewGroup{
         return this.mRowNum;
     }
 
+    public void setHorizontalPadding(int padding){
+        this.mHorizontalPadding = padding;
+    }
+
+    public void setVerticalPadding(int padding){
+        this.mVerticalPadding = padding;
+    }
+
     private void addCache(int cacheIndex, int l, int t, int r, int b){
         LayoutCache cache = this.mLayoutCache.get(cacheIndex);
         if(cache == null){
