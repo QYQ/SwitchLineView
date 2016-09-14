@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Learningdemo</string>
+    <string name="title_activity_switch_line">SwitchLineActivity</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:my="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kent.learningdemo.item.switchline.SwitchLineActivity">
+
+    <com.kent.learningdemo.item.switchline.view.SwitchLineView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch_line_view"
+        app:verticalPadding="5dp"
+        app:horizontalPadding="5dp"
+        android:padding="10dp">
+
+    </com.kent.learningdemo.item.switchline.view.SwitchLineView>
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加一个item"/>
+
+    <Button
+        android:id="@+id/remove_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="移除一个item"/>
+
+    <Button
+        android:id="@+id/set_row_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设为一行"/>
+
+    <Button
+        android:id="@+id/set_unlimit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="不限行数"/>
+
+</LinearLayout>
