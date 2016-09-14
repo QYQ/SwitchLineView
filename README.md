@@ -16,7 +16,7 @@
 
 **第一步： 在 xml 布局中：**
 
-```
+```xml
 <com.kent.learningdemo.item.switchline.view.SwitchLineView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -41,7 +41,7 @@
 
 &emsp;&emsp;例如：
 
-```
+```java
 private class Adapter extends BaseSwitchLineAdapter{
 
         private ArrayList<String> mData = new ArrayList<>();
@@ -75,7 +75,7 @@ private class Adapter extends BaseSwitchLineAdapter{
 
 &emsp;&emsp;代码如下：
 
-```
+```java
 final SwitchLineView switchLineView = (SwitchLineView) findViewById(R.id.switch_line_view);
 
 final Adapter adapter = new Adapter(this);
